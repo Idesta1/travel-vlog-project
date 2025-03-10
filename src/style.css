@@ -1,14 +1,20 @@
-h1,h2,h3,h4,h5,h6{
+body{
+    background: #abd5dd;
     font-family: "Poppins", sans-serif;
-    color: #fff;
+}
 
+header h1{
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 700;
 }
-h1{
-    font-size: 48px;
-}
-h2{
+header h2{
     font-weight: 300;
+    line-height: 1;
     
+}
+header h3{
+    line-height: 1.5;
 }
 
 .primary-link{
@@ -20,6 +26,7 @@ h2{
    font-size: 14px;
    font-weight: 600;
    border-radius: 6px;
+   line-height: 5.5;
 }
 .container{
     margin: 0 auto;
@@ -31,14 +38,30 @@ div{
 header{
     text-align: center;
     max-width: 1200px;
-        margin: 0 auto;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.4)),
             url("../cophen-img-png.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 90px;
-        border: 5px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 110px;
+    border: 5px solid red;
+    color: white;
+    }
+
+    @media (max-width: 960px){
+        header{
+            padding: 60px 0;
+        }
+        header h1{
+            font-size: 48px;
+        }
+        header h2{
+            font-size: 20px;
+        }
+        header h3{
+            font-size: 12px;
+        }
     }
     
