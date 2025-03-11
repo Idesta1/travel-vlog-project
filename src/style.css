@@ -57,14 +57,14 @@ header{
     .grid{
         display: grid;
         grid-gap: 64px;
-        margin-top: 100px;
-        
+        margin-top: 80px;
         
 
     }
     .img-responsive1{
         display: block;
         width: 100%;
+        
         
 
     }
@@ -75,15 +75,63 @@ header{
         
         
     }
+    .img-responsive{
+        display: block;
+        width: 150px;
+    }
       
 
     .grid-2-columns {
         grid-template-columns: 1fr 1fr;
+        
     }
     .muted{
         opacity: 0.7;
         color: #6b1717;
     }
+    .text-center{
+        text-align: center;
+    }
+        .card {
+            background: white;
+            margin: 30px 0;
+        }
+    
+        .card-header.grid {
+            grid-gap: 0;
+        }
+    
+        .card-body {
+            padding: 30px;
+        }
+    
+        .card-footer {
+            padding: 0 30px 30px;
+        }
+    
+        .btn {
+            display: block;
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            padding: 16px;
+            background-color: #6b1717;
+            text-decoration: none;
+        }
+    
+        section {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 100px;
+        }
+    
+        section.secondary {
+            background: #eee6e6;
+        }
 
     footer{
         background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
@@ -111,6 +159,7 @@ header{
     
     .grid-3-columns{
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
     footer ul{
         padding: 0;
@@ -142,6 +191,7 @@ header{
         .grid{
             grid-template-columns: 1fr;
             grid-gap: 32px;
+            margin-top: 10px;
         }
         section{
             padding: 30px;
