@@ -66,18 +66,21 @@ header{
         width: 100%;
         
         
+        
 
     }
     .img-responsive2{
         display: block;
         width: 100%;
+        height: 300px;
         margin-top: 30px;
         
         
     }
     .img-responsive{
         display: block;
-        width: 150px;
+        width: 100%;
+        height: 190px;
     }
       
 
@@ -131,6 +134,12 @@ header{
     
         section.secondary {
             background: #eee6e6;
+        }
+        .embed{
+            width: 100%;
+            grid-gap: none;
+            aspect-ratio: 1/1;
+            height: 190px;
         }
 
     footer{
@@ -196,5 +205,12 @@ header{
         section{
             padding: 30px;
         }
-    }
+       .card-header img {
+       display: none;
+        }
+
+       .embed {
+        aspect-ratio: 16 / 9;
+       }
+}
     
