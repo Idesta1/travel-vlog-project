@@ -141,7 +141,10 @@ header{
             aspect-ratio: 1/1;
             height: 190px;
         }
-
+section.gallery{
+    background: #fff;
+    padding: 100px  80px;
+}
     footer{
         background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
         url('../copenhagen-city view.jpg');
