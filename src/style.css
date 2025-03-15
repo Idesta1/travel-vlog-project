@@ -149,7 +149,7 @@ header{
             letter-spacing: 3px;
             text-transform: uppercase;
             padding: 16px;
-            background-color: #6b1717;
+            background-color: var(--primary-color);
             text-decoration: none;
         }
     
